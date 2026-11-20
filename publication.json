@@ -1,0 +1,51 @@
+{
+  "game": {
+    "id": "8d693360-e3f1-48f3-91e8-638834104c34",
+    "repoUrl": "upload:362bd76a0e5549919aadcc3aac3ddaf9",
+    "ownerLogin": "",
+    "repoName": "",
+    "displayName": "Mashini",
+    "launchPath": "index.html",
+    "serverScriptPath": null,
+    "gameSlug": "8d693360-e3f1-48f3-91e8-638834104c34",
+    "isVerifiedOwner": false,
+    "metadataSource": "manual",
+    "createdAt": "2026-11-20T15:34:44.2000679+00:00",
+    "coverArtSource": "manifest",
+    "coverArtUpdatedAt": "2026-11-20T15:34:44.2000679+00:00",
+    "hosting": {
+      "hostingEnabled": true,
+      "hostedUrl": "https://8d693360-e3f1-48f3-91e8-638834104c34.starhermit.com/index.html",
+      "deployStatus": "live",
+      "pinnedCommitSha": null,
+      "deployedCommitSha": null,
+      "deployError": null,
+      "deployedAt": "2026-11-20T15:34:44.2332667+00:00",
+      "externalLaunchUrl": null,
+      "engineVersion": "1.45.1",
+      "deployWarning": null
+    },
+    "description": "A die-cast tabletop workshop. Build tracks, launch cars, and explore their moving parts.",
+    "releaseNotesUpdatedAt": "2026-11-20T15:34:44.2004907+00:00",
+    "serverRuntime": null,
+    "bannerArtSource": "manifest",
+    "bannerArtUpdatedAt": "2026-11-20T15:34:44.2000679+00:00",
+    "tags": [
+      "Sandbox",
+      "Physics",
+      "Cars",
+      "Toys",
+      "Relaxing",
+      "Family"
+    ],
+    "links": [],
+    "isDisabled": false
+  },
+  "publishedAt": "2026-11-20T15:34:44.294Z",
+  "sourceCommit": "588c45060d276ef9b4a224096ca974716e94fd09",
+  "bytesReceived": 13082566,
+  "archiveSha256": "d253fe9e0881647e964ca64ac74a50ef6bbbcb89fbdd1f6edb235f77f41b876b",
+  "result": {
+    "bytesReceived": 13082566
+  }
+}
