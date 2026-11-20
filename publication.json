@@ -10,9 +10,11 @@
     "gameSlug": "8d693360-e3f1-48f3-91e8-638834104c34",
     "isVerifiedOwner": false,
     "metadataSource": "manual",
-    "createdAt": "2026-11-20T15:34:44.2000679+00:00",
+    "createdAt": "2026-11-20T15:34:44.200067+00:00",
     "coverArtSource": "manifest",
-    "coverArtUpdatedAt": "2026-11-20T15:34:44.2000679+00:00",
+    "coverArtUpdatedAt": "2026-11-20T15:46:09.209139+00:00",
+    "submittedByUserId": "2712e04e-461b-4d23-81ae-e40b429128a8",
+    "submittedByUsername": "starhermit",
     "hosting": {
       "hostingEnabled": true,
       "hostedUrl": "https://8d693360-e3f1-48f3-91e8-638834104c34.starhermit.com/index.html",
@@ -20,16 +22,16 @@
       "pinnedCommitSha": null,
       "deployedCommitSha": null,
       "deployError": null,
-      "deployedAt": "2026-11-20T15:34:44.2332667+00:00",
+      "deployedAt": "2026-11-20T15:46:09.2078+00:00",
       "externalLaunchUrl": null,
       "engineVersion": "1.45.1",
       "deployWarning": null
     },
     "description": "A die-cast tabletop workshop. Build tracks, launch cars, and explore their moving parts.",
-    "releaseNotesUpdatedAt": "2026-11-20T15:34:44.2004907+00:00",
+    "releaseNotesUpdatedAt": "2026-11-20T15:34:44.20049+00:00",
     "serverRuntime": null,
     "bannerArtSource": "manifest",
-    "bannerArtUpdatedAt": "2026-11-20T15:34:44.2000679+00:00",
+    "bannerArtUpdatedAt": "2026-11-20T15:46:09.209139+00:00",
     "tags": [
       "Sandbox",
       "Physics",
@@ -41,11 +43,18 @@
     "links": [],
     "isDisabled": false
   },
-  "publishedAt": "2026-11-20T15:34:44.294Z",
-  "sourceCommit": "588c45060d276ef9b4a224096ca974716e94fd09",
-  "bytesReceived": 13082566,
-  "archiveSha256": "d253fe9e0881647e964ca64ac74a50ef6bbbcb89fbdd1f6edb235f77f41b876b",
+  "publishedAt": "2026-11-20T15:46:09.733Z",
+  "sourceCommit": "c9d52f5bb86d1f3dd9927608f52e97f9c33f48d8",
+  "bytesReceived": 13082512,
+  "archiveSha256": "0db90d1771c5fa11c3e82664af111453d102bb1bc1f7386addd51095183f34e1",
   "result": {
-    "bytesReceived": 13082566
+    "clientPublished": true,
+    "serverImageLoaded": false,
+    "imageDigest": null,
+    "bytesReceived": 13082512,
+    "mode": "replace",
+    "filesRemoved": 0,
+    "engineVersion": "1.45.1",
+    "deployWarning": null
   }
 }
