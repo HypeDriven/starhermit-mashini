@@ -10,6 +10,10 @@ frames 57
 save water
 frames 40
 save ripple
+# After 15 s idle the camera follows a car with the controls hidden; a tap brings them back.
+tap 50% 50%
+frames 2
+expect Options
 tap 96% 6%
 expect Reset track
 tap 50% 85%

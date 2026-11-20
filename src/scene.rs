@@ -151,18 +151,14 @@ impl Studio {
         sun.set_position(-13., 24., 12.);
         H::SCENE.add(sun);
         sun.set("castShadow", if level > 0 { "true" } else { "false" });
-        for (key, v) in [
-            ("left", -28.),
-            ("right", 28.),
-            ("top", 28.),
-            ("bottom", -28.),
-            ("far", 90.),
-        ] {
-            sun.set_f64(&format!("shadow.camera.{key}"), v)
-        }
+        // The engine's cascaded shadow maps follow the view, so buckets and pieces anywhere on
+        // the tabletop are covered (a fixed box round the origin left far buckets at its edge).
+        sun.set(
+            "shadow.cascades",
+            r#"{"count":3,"maxDistance":140,"splitLambda":0.6,"cached":true}"#,
+        );
         sun.set_f64("shadow.bias", -0.0012);
         sun.set_f64("shadow.normalBias", 0.038);
-        sun.call("shadow.camera.updateProjectionMatrix", "");
         let sz = if level < 4 {
             512
         } else if level < 8 {
@@ -456,6 +452,8 @@ impl Studio {
                 [b.x, 0.04, b.z],
                 [b.radius - 0.05, 0.07, b.radius - 0.05],
             );
+            // The clear floor must not shadow the table under it, or a sunk car's shadow is lost.
+            floor.set("castShadow", "false");
             self.bucket_nodes.push(floor);
             // The moulded ribs on the basin floor make refraction visible through still water.
             for (fraction, y) in [(0.52, 0.081), (0.88, 0.081), (1., b.rim()), (1., 0.09)] {
@@ -1029,6 +1027,8 @@ impl Studio {
             .entry((model, tier))
             .or_insert_with(|| load_car(model, tier));
         let root = group(H::SCENE);
+        // Cars always move: keep them out of the renderer's cached static shadow casters.
+        root.set("movable", "true");
         let nodes = std::array::from_fn(|_| group(root));
         let finish = new(
             "MeshPhysicalMaterial",
