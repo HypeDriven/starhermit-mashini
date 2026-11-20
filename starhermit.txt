@@ -1,0 +1,15 @@
+name=Mashini
+description=A die-cast tabletop workshop. Build tracks, launch cars, and explore their moving parts.
+launch=index.html
+owner=2712e04e-461b-4d23-81ae-e40b429128a8
+cover=cover.jpg
+banner=banner.jpg
+tags=Sandbox, Physics, Cars, Toys, Relaxing, Family
+release_notes=First release: build die-cast car tracks on a tabletop, launch cars through loops, jumps and boosters, splash into water buckets and take the models apart.
+engine.api=1
+engine.version=1.45.1
+engine.minor=45
+engine.entry=mashini.wasm
+engine.capabilities=storage
+engine.ray_tracing=auto
+engine.limits.meshes=4096

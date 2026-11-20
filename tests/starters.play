@@ -1,0 +1,97 @@
+frames 4
+tap 96% 6%
+tap 50% 85%
+frames 3
+expect Choose a track
+expect Pocket Oval
+expect Cloud Cascade
+save picker
+tap 16% 26%
+frames 8
+expect Options
+save oval
+tap 96% 6%
+tap 50% 85%
+frames 3
+expect Choose a track
+expect Pocket Oval
+expect Cloud Cascade
+tap 50% 26%
+frames 8
+expect Options
+save splash
+tap 96% 6%
+tap 50% 85%
+frames 3
+expect Choose a track
+expect Pocket Oval
+expect Cloud Cascade
+tap 82% 26%
+frames 8
+expect Options
+save switchbacks
+tap 96% 6%
+tap 50% 85%
+frames 3
+expect Choose a track
+expect Pocket Oval
+expect Cloud Cascade
+tap 16% 55%
+frames 8
+expect Options
+save course4
+tap 96% 6%
+tap 50% 85%
+frames 3
+expect Choose a track
+expect Pocket Oval
+expect Cloud Cascade
+tap 50% 55%
+frames 8
+expect Options
+save course5
+tap 96% 6%
+tap 50% 85%
+frames 3
+expect Choose a track
+expect Pocket Oval
+expect Cloud Cascade
+tap 82% 55%
+frames 8
+expect Options
+save course6
+tap 96% 6%
+tap 50% 85%
+frames 3
+expect Choose a track
+expect Pocket Oval
+expect Cloud Cascade
+tap 16% 84%
+frames 8
+expect Options
+save course7
+tap 96% 6%
+tap 50% 85%
+frames 3
+expect Choose a track
+expect Pocket Oval
+expect Cloud Cascade
+tap 50% 84%
+frames 8
+expect Options
+save course8
+tap 96% 6%
+tap 50% 85%
+frames 3
+expect Choose a track
+expect Pocket Oval
+expect Cloud Cascade
+tap 82% 84%
+frames 8
+expect Options
+save course9
+tap 96% 6%
+tap 50% 85%
+frames 3
+tap 95% 6%
+expect Reset track

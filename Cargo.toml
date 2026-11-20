@@ -1,0 +1,17 @@
+[package]
+name="mashini"
+version="0.2.0"
+edition="2024"
+[lib]
+crate-type=["cdylib","rlib"]
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+starhermit-guest={path="../../sh/starhermit-engine/crates/starhermit-guest"}
+[profile.release]
+opt-level="s"
+lto=true
+panic="abort"
+strip=true
+
+[dependencies]
+rapier3d = "0.22.0"
+starhermit-alembic = { path = "../../sh/starhermit-engine/crates/starhermit-alembic" }

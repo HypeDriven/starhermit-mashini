@@ -1,0 +1,102 @@
+frames 4
+save circuit
+tap 40% 24%
+frames 65
+expect Put together
+save parts
+tap 32% 94%
+frames 60
+save assembled
+tap 68% 94%
+frames 3
+tap 65% 94%
+frames 4
+expect Sprint GT
+tap 72% 74%
+frames 2
+expect Orchard Pickup
+tap 50% 74%
+frames 2
+expect Vista Wagon
+tap 64% 85%
+frames 4
+save garage
+expect Go!
+tap 50% 94%
+frames 3
+tap 96% 6%
+frames 3
+expect Camera: off
+tap 35% 94%
+expect Zoom in
+tap 35% 94%
+tap 65% 94%
+frames 3
+tap 25% 47%
+frames 3
+expect Remove
+tap 42% 83%
+frames 3
+expect Pick a piece
+tap 27% 83%
+frames 4
+expect Boost +8 m/s
+tap 70% 59%
+frames 3
+expect Boost +12 m/s
+tap 73% 83%
+frames 3
+expect Tap the tabletop
+tap 58% 48%
+frames 5
+expect Options
+save bucket
+tap 34% 94%
+frames 3
+save tracks
+tap 50% 70%
+frames 3
+expect Pick a piece
+save turns
+tap 58% 83%
+frames 3
+expect Place track
+tap 74% 55%
+frames 4
+expect Options
+save placed
+tap 34% 94%
+frames 3
+tap 58% 94%
+frames 3
+expect New track
+tap 27% 70%
+frames 3
+expect Pick a piece
+tap 27% 83%
+frames 3
+tap 52% 50%
+frames 3
+expect Options
+save single
+tap 34% 94%
+frames 3
+tap 42% 94%
+frames 3
+tap 74% 94%
+frames 3
+expect Options
+save restored
+tap 34% 94%
+frames 3
+tap 58% 83%
+frames 3
+expect Pick a piece
+save fork_choices
+tap 58% 83%
+frames 3
+expect Place track
+tap 66% 44%
+frames 3
+expect Options
+save junction

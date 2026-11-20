@@ -1,0 +1,1 @@
+{"name":"mashini","private":true,"scripts":{"start":"python3 tools/serve.py","test":"cargo test --release --offline","build":"sh tools/build.sh"}}

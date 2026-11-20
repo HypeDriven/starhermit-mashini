@@ -1,0 +1,21 @@
+frames 4
+expect Options
+save circuit
+frames 235
+save route
+frames 828
+frames 110
+save jump
+frames 57
+save water
+frames 40
+save ripple
+tap 96% 6%
+expect Reset track
+tap 50% 85%
+frames 2
+expect Choose a track
+tap 50% 26%
+frames 3
+expect Options
+save reset

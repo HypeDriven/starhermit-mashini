@@ -1,0 +1,25 @@
+frames 4
+tap 65% 94%
+frames 4
+expect Sprint GT
+tap 72% 74%
+frames 2
+expect Orchard Pickup
+tap 64% 85%
+frames 3
+save garage
+tap 50% 94%
+frames 10
+expect Options
+save tabletop
+frames 1000
+save follow
+frames 900
+save nextcar
+tap 96% 6%
+frames 5
+expect Mashini
+save awake
+tap 96% 6%
+frames 3
+expect Reset track

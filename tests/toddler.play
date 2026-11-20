@@ -1,0 +1,38 @@
+frames 4
+expect Tracks
+expect Garage
+tap 65% 94%
+frames 3
+tap 72% 74%
+expect Orchard Pickup
+tap 64% 85%
+tap 50% 94%
+frames 4
+tap 96% 6%
+expect Toddler: off
+tap 50% 75%
+expect Toddler: on
+tap 65% 94%
+frames 3
+tap 65% 94%
+expect Options
+tap 34% 94%
+expect Options
+tap 96% 6%
+expect Toddler: on
+tap 50% 85%
+frames 2
+expect Choose a track
+tap 50% 26%
+frames 3
+expect Options
+tap 96% 6%
+expect Toddler: on
+tap 50% 75%
+expect Toddler: off
+tap 65% 94%
+frames 3
+expect Tracks
+expect Garage
+tap 65% 94%
+expect Sprint GT
