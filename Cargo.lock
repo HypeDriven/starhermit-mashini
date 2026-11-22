@@ -455,7 +455,7 @@ checksum = "6ce2be8dc25455e1f91df71bfa12ad37d7af1092ae736f3a6cd0e37bc7810596"
 
 [[package]]
 name = "starhermit-alembic"
-version = "1.46.0"
+version = "1.47.0"
 dependencies = [
  "starhermit-brotli",
  "starhermit-compress",
@@ -465,7 +465,7 @@ dependencies = [
 
 [[package]]
 name = "starhermit-brotli"
-version = "1.46.0"
+version = "1.47.0"
 dependencies = [
  "starhermit-brotli-alloc",
  "starhermit-brotli-std-alloc",
@@ -473,34 +473,34 @@ dependencies = [
 
 [[package]]
 name = "starhermit-brotli-alloc"
-version = "1.46.0"
+version = "1.47.0"
 
 [[package]]
 name = "starhermit-brotli-std-alloc"
-version = "1.46.0"
+version = "1.47.0"
 dependencies = [
  "starhermit-brotli-alloc",
 ]
 
 [[package]]
 name = "starhermit-compress"
-version = "1.46.0"
+version = "1.47.0"
 
 [[package]]
 name = "starhermit-core"
-version = "1.46.0"
+version = "1.47.0"
 
 [[package]]
 name = "starhermit-guest"
-version = "1.46.0"
+version = "1.47.0"
 
 [[package]]
 name = "starhermit-json"
-version = "1.46.0"
+version = "1.47.0"
 
 [[package]]
 name = "starhermit-math"
-version = "1.46.0"
+version = "1.47.0"
 dependencies = [
  "starhermit-core",
 ]

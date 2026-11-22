@@ -2,6 +2,6 @@
 set -eu
 cargo build --release --target wasm32-unknown-unknown --offline
 cp target/wasm32-unknown-unknown/release/mashini.wasm .
-engine=${STARHERMIT:-$HOME/sh/runtime/1.45.1/starhermit-1.45.1-linux-x86_64/starhermit}
+engine=${STARHERMIT:-$HOME/sh/runtime/1.47.0/starhermit-1.47.0-linux-x86_64/starhermit}
 "$engine" package --web .
 "$engine" check .

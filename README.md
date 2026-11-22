@@ -1,6 +1,6 @@
 # Mashini
 
-Mashini is a Rust die-cast car sandbox for StarHermit 1.45.1. Run `npm start` and open http://localhost:8000 in a WebGPU browser, or open this folder with the native engine.
+Mashini is a Rust die-cast car sandbox for StarHermit 1.47.0. Run `npm start` and open http://localhost:8000 in a WebGPU browser, or open this folder with the native engine.
 
 - Tap a car to see its parts. Drag in the parts viewer to turn the model. In play, drag a car to nudge it. Fast swipes have a soft speed limit.
 - The red roller boosters keep the starter circuit moving. Its green junction has two fixed lanes and a brass lever. The lever alternates between the loop and the splash jump after a car clears it. Tap the lever to select the next route manually.
@@ -11,7 +11,7 @@ Mashini is a Rust die-cast car sandbox for StarHermit 1.45.1. Run `npm start` an
 
 ## Build and verification
 
-The compiled game is included. Building requires Rust's wasm32-unknown-unknown target, the local guest SDK at `../../sh/starhermit-engine/crates/starhermit-guest`, and StarHermit 1.45.1. Set STARHERMIT to override the runtime location. Run `npm run build` to compile, package and check the game. Run `cargo test --release --offline` for the simulation tests. The engine's render check accepts `--guest --script tests/workshop.play` to exercise the touch interface.
+The compiled game is included. Building requires Rust's wasm32-unknown-unknown target, the local guest SDK at `../../sh/starhermit-engine/crates/starhermit-guest`, and StarHermit 1.47.0. Set STARHERMIT to override the runtime location. Run `npm run build` to compile, package and check the game. Run `cargo test --release --offline` for the simulation tests. The engine's render check accepts `--guest --script tests/workshop.play` to exercise the touch interface.
 
 ## Models and physics
 
