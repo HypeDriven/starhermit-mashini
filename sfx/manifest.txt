@@ -1,0 +1,6 @@
+# file | event id | description | context
+click.wav | ui | Die-cast button click | Every workshop action
+assets/rev.wav | engine-rev | Small electric motor rev | Cars accelerate or use boosters
+assets/splash.wav | water-splash | Water splash | A car enters a water bucket
+assets/collision.wav | collision | Metallic impact | Cars collide with the track or obstacles
+meadow.opus | music | Quiet meadow music bed | Optional looping music from the workshop menu

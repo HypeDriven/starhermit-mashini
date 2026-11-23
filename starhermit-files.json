@@ -1,5 +1,6 @@
 {
   "files": {
+    "LICENSE.md": {"sha256": "bcebbbddb67f2e4e928c215017f82d6d30b10f7b59d90dd57b9b6b84ebe5c2d9", "size": 6433},
     "assets/bucket-0.wabc": {"sha256": "f471823dc04354f9bc191edbb7cd94ed4ed966d12658b071ecee70b2fb0fb67f", "size": 58706},
     "assets/bucket-1.wabc": {"sha256": "4031a0d1813bfad70ddaa1f8defe0ed5a6bb95cdfd9bb2e2a64b7ab78c492166", "size": 162479},
     "assets/bucket-2.wabc": {"sha256": "6ab64b0e8e182b11181e03bfcfae42ab30a84c8ce38c517139a3dd005ad429d4", "size": 426699},
@@ -36,8 +37,9 @@
     "cover.jpg": {"sha256": "ff2b83e4dee6a1c7e59f08a9eae2f906d621767a624d12aafeb85916aa7e5e1a", "size": 141301},
     "favicon.png": {"sha256": "73b09eed74770a57058346cbd2ecbe5f4010f4fded16f6f9dccfb937f1bc53fe", "size": 60143},
     "index.html": {"sha256": "9914558eef0f4c0216af5fcfb28bda0b476af601317a04153403b64731688a91", "size": 1773},
-    "mashini.wasm": {"sha256": "1c4ad02bcae235d1db40fbf9ca4dc14cc7e4e940aab600deeae607545aa4d52c", "size": 1600243},
+    "mashini.wasm": {"sha256": "70a92217cac4efafc5159ee17131c4a9eb5736275d8f0d0757f1decd8ed9cc85", "size": 1602178},
     "meadow.opus": {"sha256": "475b99df64976da8e46dc2466ce6134fe0126c947f60cd92ee8c6c8d92c6259e", "size": 184514},
+    "sfx/manifest.txt": {"sha256": "3bfab74102387efc0f77aa7fe4036e6505f6ccadc45b475306b6a28b09472918", "size": 459},
     "spec.md": {"sha256": "b7bd8f90464ae3fc53f7dc7b875ef9ccbfa2c3d05cedafba9c1905f794c4962d", "size": 4173},
     "starhermit.txt": {"sha256": "eebd3cbde30f6e95f4c6702ca982cffbf413974aaafbf485adffd841e91f48a7", "size": 609}
   },

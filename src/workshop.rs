@@ -1371,6 +1371,7 @@ impl Toybox {
 impl Game for Toybox {
     fn init() -> Self {
         std::panic::set_hook(Box::new(|e| starhermit_guest::report_panic(e)));
+        crate::cursor::show(CREAM, INK);
         let mut kinds = START.to_vec();
         let mut fleet = vec![STARTER_CAR];
         let mut upgrade_oval = false;
