@@ -16,6 +16,8 @@ if [ ! -f "$stage/sh/starhermit-engine/Cargo.toml" ]; then
   git -C ~/sh/starhermit-engine archive "v$ver" | tar -x -C "$stage/sh/starhermit-engine"
 fi
 rsync -a --exclude target --exclude .git "$here" "$stage/games/"
-exec ~/sh/runtime/ci/sh-job.py --host "$HOST" --image "runtime:$ver" --ttl 172800 --cpu 8 --mem 12Gi \
+# K3S_FETCH="games/mashini/mashini.wasm …" copies those paths back into K3S_OUT (default ./sh-job-out/mashini-ci).
+fetch=(); for f in ${K3S_FETCH:-}; do fetch+=(--fetch "$f"); done; [ -n "${K3S_OUT:-}" ] && fetch+=(--out "$K3S_OUT")
+exec ~/sh/runtime/ci/sh-job.py --host "$HOST" --image "runtime:$ver" --ttl 172800 --cpu 8 --mem 12Gi "${fetch[@]}" \
   --name mashini-ci --tree "$stage" --timeout 3600 -- \
   "set -eo pipefail; cd games/mashini; for i in 1 2 3; do cargo fetch -q && break; sleep 10; done; $CMD"
