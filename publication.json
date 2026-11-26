@@ -12,7 +12,7 @@
     "metadataSource": "manual",
     "createdAt": "2026-11-20T15:34:44.200067+00:00",
     "coverArtSource": "manifest",
-    "coverArtUpdatedAt": "2026-11-23T17:02:07.150086+00:00",
+    "coverArtUpdatedAt": "2026-11-26T17:33:45.046667+00:00",
     "submittedByUserId": "2712e04e-461b-4d23-81ae-e40b429128a8",
     "submittedByUsername": "starhermit",
     "hosting": {
@@ -22,16 +22,16 @@
       "pinnedCommitSha": null,
       "deployedCommitSha": null,
       "deployError": null,
-      "deployedAt": "2026-11-23T17:02:07.149097+00:00",
+      "deployedAt": "2026-11-26T17:33:45.045429+00:00",
       "externalLaunchUrl": null,
-      "engineVersion": "1.47.0",
+      "engineVersion": "1.50.0",
       "deployWarning": null
     },
     "description": "A die-cast tabletop workshop. Build tracks, launch cars, and explore their moving parts.",
     "releaseNotesUpdatedAt": "2026-11-20T15:34:44.20049+00:00",
     "serverRuntime": null,
     "bannerArtSource": "manifest",
-    "bannerArtUpdatedAt": "2026-11-23T17:02:07.150086+00:00",
+    "bannerArtUpdatedAt": "2026-11-26T17:33:45.046667+00:00",
     "tags": [
       "Sandbox",
       "Physics",
@@ -43,18 +43,18 @@
     "links": [],
     "isDisabled": false
   },
-  "publishedAt": "2026-11-23T17:02:07.339Z",
-  "sourceCommit": "38e0ddd9e7e914fa0c6d19bcb2c4fa29656f1863",
-  "bytesReceived": 13086836,
-  "archiveSha256": "9a9db91fd1ab5c6b6c9a873206263305fd9c58efb0af7c5c9aae7b5485804a68",
+  "publishedAt": "2026-11-26T17:33:44.307Z",
+  "sourceCommit": "868ab795ae9b72c870dc39478f3849e8e4f405c6",
+  "bytesReceived": 13086543,
+  "archiveSha256": "c5a69dd37141c87dc48a1cf22b5bd2adca57e86be1cc3438a769f8ce144cb3ba",
   "result": {
     "clientPublished": true,
     "serverImageLoaded": false,
     "imageDigest": null,
-    "bytesReceived": 13086836,
+    "bytesReceived": 13086543,
     "mode": "replace",
     "filesRemoved": 0,
-    "engineVersion": "1.47.0",
+    "engineVersion": "1.50.0",
     "deployWarning": null
   }
 }
