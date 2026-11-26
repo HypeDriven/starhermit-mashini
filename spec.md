@@ -1,7 +1,7 @@
 # Mashini — running spec
 
 Mashini is a die-cast toy car sandbox on a maple tabletop, built in Rust for the StarHermit engine
-(1.47.0, WebGPU in browsers). Published on StarHermit as uploaded game `8d693360-e3f1-48f3-91e8-638834104c34`.
+(1.50.0, WebGPU in browsers). Published on StarHermit as uploaded game `8d693360-e3f1-48f3-91e8-638834104c34`.
 
 ## Play
 

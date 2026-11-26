@@ -11,7 +11,7 @@ Mashini is a Rust die-cast car sandbox for StarHermit 1.47.0. Run `npm start` an
 
 ## Build and verification
 
-The compiled game is included. Building requires Rust's wasm32-unknown-unknown target, the local guest SDK at `../../sh/starhermit-engine/crates/starhermit-guest`, and StarHermit 1.47.0. Set STARHERMIT to override the runtime location. Run `npm run build` to compile, package and check the game. Run `cargo test --release --offline` for the simulation tests. The engine's render check accepts `--guest --script tests/workshop.play` to exercise the touch interface.
+The compiled game is included. Building requires Rust's wasm32-unknown-unknown target, the local guest SDK at `../../sh/starhermit-engine/crates/starhermit-guest`, and StarHermit 1.50.0. Set STARHERMIT to override the runtime location. Run `npm run build` to compile, package and check the game. Run `cargo test --release --offline` for the simulation tests (as a k3s Job: `tools/k3s-test.sh`, which stages the engine crates beside the game). The engine's render check accepts `--guest --script tests/workshop.play` to exercise the touch interface.
 
 ## Models and physics
 
