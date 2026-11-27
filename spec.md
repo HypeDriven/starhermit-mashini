@@ -1,7 +1,7 @@
 # Mashini — running spec
 
 Mashini is a die-cast toy car sandbox on a maple tabletop, built in Rust for the StarHermit engine
-(1.50.0, WebGPU in browsers). Published on StarHermit as uploaded game `8d693360-e3f1-48f3-91e8-638834104c34`.
+(1.53.0, WebGPU in browsers). Published on StarHermit as uploaded game `8d693360-e3f1-48f3-91e8-638834104c34`.
 
 ## Play
 
@@ -65,3 +65,5 @@ Mashini is a die-cast toy car sandbox on a maple tabletop, built in Rust for the
 - No game-side Sound, Language or frame-rate options beyond what the engine's own Options provides.
 
 Browser rendering uses the engine's asynchronous pipeline creation so newly encountered materials do not stall the page. Native play retains the engine's synchronous pipeline behavior.
+
+On engine 1.53.0, browser play through WebGL 2 compiles a frame's shader programs together and holds that frame until they are linked, blends skinned meshes in one pass, reuses the window pass's depth, and uses a hardware WebGL 2 context when WebGPU's adapter is software.

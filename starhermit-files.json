@@ -36,13 +36,13 @@
     "click.wav": {"sha256": "4b4b78b9113823eb36c2d1a96d3df4aa244d24b5ef4ff20c908fcde594d11899", "size": 6644},
     "cover.jpg": {"sha256": "ff2b83e4dee6a1c7e59f08a9eae2f906d621767a624d12aafeb85916aa7e5e1a", "size": 141301},
     "favicon.png": {"sha256": "73b09eed74770a57058346cbd2ecbe5f4010f4fded16f6f9dccfb937f1bc53fe", "size": 60143},
-    "index.html": {"sha256": "9278c9830f91fd53d1c7a1a5ee852b3d4fc4d1ea77c401c0d3295bc2a0ebef47", "size": 1773},
+    "index.html": {"sha256": "ab87ebebc596ed77714718103c02eb0e85f80e1f72fc4146b484252414b33417", "size": 1773},
     "mashini.wasm": {"sha256": "53be4038848a9c7f1d17355de38c4dc15085ea511eec20fdb1008b90657305bd", "size": 1602513},
     "meadow.opus": {"sha256": "475b99df64976da8e46dc2466ce6134fe0126c947f60cd92ee8c6c8d92c6259e", "size": 184514},
     "sfx/manifest.txt": {"sha256": "3bfab74102387efc0f77aa7fe4036e6505f6ccadc45b475306b6a28b09472918", "size": 459},
-    "spec.md": {"sha256": "a89f462b6dab5ff69bd0fcad454ee72a231386d126e7dc31cfccf549d005b2b9", "size": 4173},
-    "starhermit.txt": {"sha256": "dcc4981cd9badcedc03408eff09565d2b5ffcd21d9de08fbbf412dd92671f67d", "size": 609}
+    "spec.md": {"sha256": "c0f7d89472cfeef9892a0bf9ed712e6195531d8bde7c8090b830fb5b3857af50", "size": 4447},
+    "starhermit.txt": {"sha256": "89bb861f08953a561d3a224ed771d8671b07d47876406abe2f81ddbd1574b346", "size": 609}
   },
-  "excluded": ["Cargo.lock", "Cargo.toml", "README.md", "package.json", "previews/", "publication.json", "src/", "target/", "tests/", "tools/"],
+  "excluded": ["Cargo.lock", "Cargo.toml", "README.md", "package.json", "previews/", "publication.json", "src/", "tests/", "tools/"],
   "format": 1
 }
